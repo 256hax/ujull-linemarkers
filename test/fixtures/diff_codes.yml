@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  html: |
+    <div class="diff">
+      <ul>
+        <li class="del"><del>&lt;title&gt;Example Domain&lt;/title&gt;</del></li>
+
+        <li class="ins"><ins>&lt;title&gt;Test Domain&lt;/title&gt;</ins></li>
+
+      </ul>
+    </div>
+  text: |
+    <div class="diff">
+      <ul>
+        <li class="del"><del>Example Domain</del></li>
+        <li class="ins"><ins>Test Domain</ins></li>
+      </ul>
+    </div>
+  scraped_code_created_at: 2018-09-04 11:00:00
+  scraping_html_element_id: 1
+  scraped_code_id: 1
+
+two:
+  id: 2
+  html: |
+    <div class="diff">
+      <ul>
+        <li class="del"><del>&lt;title&gt;Test Domain&lt;/title&gt;</del></li>
+
+        <li class="ins"><ins>&lt;title&gt;Example Domain&lt;/title&gt;</ins></li>
+
+      </ul>
+    </div>
+  text: |
+    <div class="diff">
+      <ul>
+        <li class="del"><del>Test Domain</del></li>
+        <li class="ins"><ins>Example Domain</ins></li>
+      </ul>
+    </div>
+  scraped_code_created_at: 2018-09-04 13:00:00
+  scraping_html_element_id: 1
+  scraped_code_id: 1

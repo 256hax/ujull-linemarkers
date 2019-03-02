@@ -1,0 +1,8 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  page_url: https://example.com/
+  active: true
+  directory_path: scraped_html/e/example.com
+  scraping_latest_date: 2018-12-03 22:20:05 +0900
